@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    color: #333;
+    height: 100%;
+}
+.titulo {
+    text-align: center;
+}
+
+.cuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    margin: auto;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #f8e0ac;
+    border-radius: 1rem;
+}
+
+.etiqueta {
+    font-size: 1.8rem;
+    font-style: bold;
+}
+
+.campo {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: 1px white;
+    border-radius: 1.1rem;
+}
+
+.boton {
+    background-color: #dfb14f;
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+
