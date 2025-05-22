@@ -6,6 +6,7 @@ body {
     color: #333;
     height: 100%;
 }
+
 .titulo {
     text-align: center;
 }
@@ -24,13 +25,14 @@ body {
 
 .etiqueta {
     font-size: 1.8rem;
-    font-style: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .campo {
     padding: 1rem;
-    font-size: 1.5rem;
-    border: 1px white;
+    font-size: 1.6rem;
+    border: 1px solid #ccc;
     border-radius: 1.1rem;
 }
 
@@ -42,5 +44,6 @@ body {
     border-radius: 0.5rem;
     cursor: pointer;
     border: none;
+    margin-top: 1rem;
 }
 
