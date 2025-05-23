@@ -15,14 +15,14 @@ boton.addEventListener("click", (evento) => {
     if (nombre === "") {
         errores.push("El nombre no puede estar vacío");
     }
-     if (nombre.length > 50) {
+    if (nombre.length > 50) {
         errores.push("El nombre no puede superar los 50 caracteres.");
     }
 
     if (apellido === "") {
         errores.push("El apellido no puede estar vacío");
     }
-        if (apellido.length > 50) {
+    if (apellido.length > 50) {
         errores.push("El apellido no puede superar los 50 caracteres.");
     }
 
