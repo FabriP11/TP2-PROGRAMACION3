@@ -16,7 +16,7 @@ boton.addEventListener("click", (evento) => {
     }
     
     const area = calcularArea(ladoA, ladoB, ladoC);
-    alert(`El área total es ${area}.`);
+    alert(`El área total es ${area.toFixed(2)}.`);
     document.getElementById("ladoA").value = '';
     document.getElementById("ladoB").value = '';
     document.getElementById("ladoC").value = '';
